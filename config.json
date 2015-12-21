@@ -1,0 +1,14 @@
+{
+    "watch": [
+        {
+            "name":"auth",
+            "type":"beego",
+            "path":"you full watchpath",
+            "destpath":"you full DestServerPath ",
+            "include":"*.go",
+            "exclude":"main.go",
+            "exclude-dirs":[".*", "static"],
+            "action":"touch"
+        }
+    ]
+}
